@@ -1,0 +1,171 @@
+/* General Styles */
+/* About Section */
+#about h2 {
+  font-family: 'Playwrite AU SA', sans-serif; /* Custom font for heading */
+  font-weight: 300; /* Lighter weight for sleek appearance */
+  font-size: 2.5rem;
+  color: #080101; /* Dark text color */
+}
+
+#about p {
+  font-family: 'Agu Display', serif; /* Custom font for paragraph */
+  font-weight: 100;
+  font-size: 1.2rem;
+  color: #090404; /* Slightly darker text color */
+}
+
+.about-gif {
+  display: block;
+  margin: 20px auto; /* Center the GIF */
+  max-width: 50%; /* Ensure it fits within the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #F0F0D7;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #f1ecec;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+}
+
+header ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+#projects {
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+#projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  border: 1px solid #AAB99A;
+  background: #D0DDD0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#projects img {
+  width: 50%;
+  max-width: 300px; /* Max width to maintain aspect ratio */
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.project img, .project video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+footer {
+  background: #333;
+  color: #f8f1f1;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 20px;
+}
+#experience {
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+#experience h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+}
+
+.experience-item h3 {
+  font-size: 1.8rem;
+}
+
+.experience-item p {
+  font-size: 1rem;
+  color: #555;
+}
+#skills {
+  padding: 40px;
+  background-color: #f1f1f1;
+}
+
+#skills h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill {
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+.skill h3 {
+  font-size: 1.2rem;
+}
+
+.skill-bar {
+  height: 10px;
+  background-color: #4CAF50;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+#contact {
+  padding: 40px;
+  background-color: #727D73;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#contact a {
+  color: #0073b1; /* LinkedIn blue color */
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
